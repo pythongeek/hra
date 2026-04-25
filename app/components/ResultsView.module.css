@@ -1,0 +1,30 @@
+.meta { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 10px 14px; background: var(--bg2); border-radius: var(--radius); border: 1px solid var(--border); margin-bottom: 12px; }
+.metaLeft { display: flex; flex-direction: column; gap: 3px; min-width: 0; flex: 1; }
+.metaTime { font-size: 11px; color: var(--text3); }
+.metaQuery { font-size: 12px; color: var(--text2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.backBtn { background: transparent; border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 5px 12px; font-size: 12px; color: var(--text2); white-space: nowrap; flex-shrink: 0; }
+.backBtn:hover { background: var(--bg2); color: var(--text); }
+
+.section { border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 8px; overflow: hidden; }
+.sectionHeader { display: flex; justify-content: space-between; align-items: center; width: 100%; border: none; padding: 10px 14px; font-size: 13px; font-weight: 500; background: var(--bg2); cursor: pointer; text-align: left; }
+.sectionHeader:hover { background: var(--bg3); }
+.chevron { font-size: 11px; color: var(--text3); }
+.blue { color: var(--blue); }
+.green { color: var(--green); }
+.yellow { color: var(--yellow); }
+.red { color: var(--red); }
+
+.sectionBody { padding: 12px 14px; background: var(--bg); }
+.sectionBody p { font-size: 13px; line-height: 1.7; color: var(--text2); margin: 2px 0; }
+.sectionBody strong { font-weight: 500; color: var(--text); }
+.sectionBody code { font-family: monospace; font-size: 12px; background: var(--bg2); padding: 1px 5px; border-radius: 3px; }
+.sectionBody :global(.bullet) { display: flex; gap: 7px; padding: 2px 0; align-items: flex-start; }
+.sectionBody :global(.arrow) { color: var(--blue); font-size: 10px; margin-top: 5px; flex-shrink: 0; }
+.sectionBody :global(.num) { color: var(--blue); font-size: 12px; font-weight: 500; flex-shrink: 0; min-width: 16px; font-family: monospace; }
+
+.historySection { margin-top: 20px; border-top: 1px solid var(--border); padding-top: 14px; }
+.historyLabel { font-size: 11px; font-weight: 500; color: var(--text3); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 8px; }
+.historyItem { width: 100%; text-align: left; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 9px 12px; margin-bottom: 6px; cursor: pointer; }
+.historyItem:hover { background: var(--bg3); }
+.historyTime { font-size: 11px; color: var(--text3); }
+.historyQuery { font-size: 12px; color: var(--text2); margin-top: 2px; }
